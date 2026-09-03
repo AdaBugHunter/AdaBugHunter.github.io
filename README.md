@@ -1,44 +1,43 @@
 # Areeba — Frontend Developer Portfolio
 
-A job-application focused frontend portfolio built with **Next.js + Tailwind CSS**.
+Professional frontend portfolio built with **Next.js** and **Tailwind CSS**.
 
-## Positioning
+## Core Stack
 
-The portfolio is intentionally focused on:
-
-- Frontend Developer opportunities
 - React
 - Next.js
 - JavaScript
 - Tailwind CSS
-- Responsive UI
-- Figma-to-code work
+- HTML5
+- CSS3
+- REST APIs
 - Git / GitHub
 
-It does **not** fill the Featured Projects section with every small university assignment. Those projects can stay on GitHub as learning history.
-
-## Current Featured Projects
+## Featured Projects
 
 1. **Velvety Cupcakes Storefront** — Next.js + Tailwind CSS
 2. **Velvety Admin Dashboard** — React + Tailwind CSS
 3. **BBMS** — React + Laravel + MySQL
-4. **GitHub Profile Finder** — Vanilla JavaScript + GitHub REST API
+4. **GitHub Profile Finder** — JavaScript + GitHub REST API
 
-Both Velvety projects are now implemented as portfolio projects.
+## Portfolio Focus
+
+The portfolio highlights responsive interface development, reusable component design, API-driven interactions, forms, state-based UI, and modern frontend implementation.
 
 ## Contact
 
 - Email: `areeba.dev08@gmail.com`
 - GitHub: `https://github.com/AdaBugHunter`
+- Portfolio: `https://AdaBugHunter.github.io`
 
-## Run
+## Local Development
 
 ```bash
 npm install
 npm run dev
 ```
 
-Then open:
+Open:
 
 ```text
 http://localhost:3000
@@ -51,27 +50,16 @@ npm run build
 npm start
 ```
 
-## Easy Content Editing
+## Content
 
-Most portfolio content is kept in:
+Primary portfolio content is maintained in:
 
 ```text
 data/portfolio.js
 ```
 
-Update that file to change:
+The main portfolio interface is located in:
 
-- Bio
-- Skills
-- Experience
-- Projects
-- Education
-- Certificates
-- Email
-- GitHub URL
-
-## Before Applying
-
-Add actual project-specific GitHub/deployment URLs once the repositories are published. Avoid placeholder or broken project buttons.
-
-If a real company/employer experience should be added, use the actual company name, role and dates instead of replacing the current project-based experience with invented history.
+```text
+components/Portfolio.jsx
+```
